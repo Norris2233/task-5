@@ -1,0 +1,122 @@
+/* Basic reset and body styling */
+body {
+    /* Use a clean sans-serif font */
+    font-family: Arial, sans-serif;
+    /* Remove default margins and padding */
+    margin: 0;
+    padding: 0;
+    /* Apply a linear gradient background */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Darker gradient background */
+    /* Set text color to white for better readability on dark background */
+    color: #fff;
+    /* Center-align text */
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    /* Set a maximum width for the container */
+    max-width: 600px;
+    /* Center the container horizontally and add margin */
+    margin: 50px auto;
+    /* Add padding inside the container */
+    padding: 20px;
+    /* Set a semi-transparent black background */
+    background: rgba(0, 0, 0, 0.7);
+    /* Round the corners of the container */
+    border-radius: 10px;
+}
+
+/* Styling for the main heading */
+h1 {
+    /* Add space below the heading */
+    margin-bottom: 20px;
+}
+
+/* Styling for the question text */
+#question {
+    /* Increase font size for better visibility */
+    font-size: 1.2em;
+    /* Add space below the question text */
+    margin-bottom: 20px;
+}
+
+/* Styling for the list of answer options */
+#options {
+    /* Remove default list styling */
+    list-style-type: none;
+    /* Remove padding around the list */
+    padding: 0;
+}
+
+/* Styling for each list item in the options */
+#options li {
+    /* Add space below each list item */
+    margin-bottom: 10px;
+}
+
+/* General button styling */
+button {
+    /* Set the button background color */
+    background-color: #007bff;
+    /* Remove default border */
+    border: none;
+    /* Set the text color to white */
+    color: white;
+    /* Add padding inside the button */
+    padding: 10px 20px;
+    /* Increase font size for better readability */
+    font-size: 1em;
+    /* Round the corners of the button */
+    border-radius: 5px;
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Add a smooth transition effect for background color changes */
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    /* Change background color on hover */
+    background-color: #0056b3;
+}
+
+/* Styling for the "Play Again" button */
+#play-again {
+    /* Set the button background color */
+    background-color: #ffc107;
+    /* Remove default border */
+    border: none;
+    /* Set the text color to black */
+    color: #000;
+    /* Add padding inside the button */
+    padding: 10px 20px;
+    /* Increase font size for better readability */
+    font-size: 1em;
+    /* Round the corners of the button */
+    border-radius: 5px;
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Add a smooth transition effect for background color changes */
+    transition: background-color 0.3s ease;
+    /* Initially hide the button */
+    display: none;
+}
+
+/* Button hover effect for the "Play Again" button */
+#play-again:hover {
+    /* Change background color on hover */
+    background-color: #e0a800;
+}
+
+/* Styling for the feedback messages */
+#feedback {
+    /* Add space above and below the feedback message */
+    margin: 20px 0;
+}
+
+/* Styling for the score display */
+#score {
+    /* Increase font size for better visibility */
+    font-size: 1.2em;
+}
